@@ -10,7 +10,7 @@ This extension does not collect, store on our servers, sell or share any persona
 
 ## What stays on your device
 
-Your settings (target language, font size, position, whether to show the original line, pronunciation style, and the optional Pro license key) are saved with `chrome.storage.sync`. Chrome keeps them in your browser profile and syncs them across your own devices if you have Chrome sync turned on. We cannot see them.
+Your settings (target language, font size, position, whether to show the original line, pronunciation style, and the optional Pro license key) are saved in the browser's synced extension storage (`storage.sync`), in your browser profile, and your browser syncs them across your own devices if you have its sync turned on. We cannot see them.
 
 ## Network requests
 
@@ -30,8 +30,8 @@ Apart from YouTube, these two (translation fallback and license check) are the o
 
 ## Pro features
 
-Saved words (a Pro feature) are stored with `chrome.storage.local` on your device only: the word, its sentence, the translation line shown with it, the video title, id and timestamp. They are not synced and not sent anywhere; you can delete them or export them as a CSV file yourself from the saved-words page. The SRT download is built on your device from captions already in the page and saved by your browser.
+Saved words (a Pro feature) are stored in the browser's extension storage (`storage.local`) on your device only: the word, its sentence, the translation line shown with it, the video title, id and timestamp. They are not synced and not sent anywhere; you can delete them or export them as a CSV file yourself from the saved-words page. The SRT download is built on your device from captions already in the page and saved by your browser.
 
 ## Changes and contact
 
-Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the Chrome Web Store listing.
+Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the store listing.
