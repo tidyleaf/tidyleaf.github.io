@@ -97,3 +97,110 @@ Yes, several, including ours: two lines, pinyin and zhuyin are free with no time
 More: [how to watch Netflix with two subtitles at once](guides/netflix-two-subtitles-at-once), and the same two-line setup for YouTube in [Tidyleaf Dual Subtitles for YouTube](youtube-dual-subtitles).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Netflix. "Netflix" is a trademark of Netflix, Inc., named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can Netflix show two subtitles at once without an extension?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Every Netflix app and netflix.com show one subtitle language at a time. Two lines need a browser extension on a computer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Netflix dual subtitles work on iPad, Android or a smart TV?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not in the Netflix apps, because extensions cannot run inside them. Use a desktop browser, and mirror or cable the computer to the TV if you want the big screen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Netflix dual subtitles work in Safari or Firefox?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only with an extension made for that browser. Tidyleaf Dual Subtitles for Netflix is for Chrome."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get pinyin on Netflix?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not from Netflix itself. Tidyleaf Dual Subtitles for Netflix prints pinyin or zhuyin above Chinese characters, free, on titles with Chinese subtitles or with Chinese chosen as a translated line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a free Netflix dual subtitles extension?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, several, including ours: two lines, pinyin and zhuyin are free with no time limit. Pro adds SRT download and saved words."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tidyleaf Dual Subtitles for Netflix",
+    "description": "Two subtitle lines on Netflix: original plus translation. Traditional or Simplified Chinese, pinyin and zhuyin. No trial timer.",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "url": "https://tidyleaf.github.io/netflix-dual-subtitles",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (yearly)",
+        "price": "24",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$24 billed yearly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "24",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "ANN"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (monthly)",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$3.99 billed monthly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          }
+        }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tidyleaf"
+    }
+  }
+]
+</script>

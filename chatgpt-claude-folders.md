@@ -111,3 +111,126 @@ Not with Tidyleaf Folders. Deleting a folder only takes the chats out of it; the
 Some folder extensions have Firefox versions, listed on Firefox Add-ons (addons.mozilla.org). Tidyleaf Folders is coming to the Chrome Web Store first, and versions for Firefox and Microsoft Edge are planned. They will be linked here once they are listed.
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by OpenAI or Anthropic. ChatGPT and Claude are trademarks of their respective owners, named only to describe the sites the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does ChatGPT have folders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not as folders. ChatGPT's built-in way to group chats is Projects, which bundle chats with shared instructions and files. For simple folders in the sidebar you need an extension."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a ChatGPT folders Chrome extension that also works on Claude?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Tidyleaf Folders works on both chatgpt.com and claude.ai, with one set of folders, so a folder can hold chats from both sites."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a ChatGPT folders extension safe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on where it keeps your data. A folders extension sees your chat titles, so read its privacy policy and check that it only asks for access to the chat sites. Tidyleaf Folders keeps everything in your browser and asks for chatgpt.com and claude.ai only; the only outside request is the Pro key check."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My ChatGPT folders are gone or not showing. What happened?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ChatGPT's own sidebar has Projects, not folders, so folders you saw there came from an extension. Check that the extension is still installed and enabled, and that you are in the same browser and profile where you made the folders: most folders extensions, Tidyleaf Folders included, keep them in that browser only. A redesign of the site's sidebar can also stop an extension from finding its place until the extension is updated. If Tidyleaf Folders cannot find the sidebar, it shows its panel at the bottom left of the page instead, so your folders stay reachable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I put folders inside ChatGPT Projects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Projects are ChatGPT's own grouping and have no subfolders. You can use Projects for chats that share instructions and files, and an extension's folders for everything else."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does deleting a folder delete my chats?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not with Tidyleaf Folders. Deleting a folder only takes the chats out of it; the chats stay on ChatGPT or Claude. Folders also never change anything on the site itself."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a ChatGPT folders extension for Firefox?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Some folder extensions have Firefox versions, listed on Firefox Add-ons (addons.mozilla.org). Tidyleaf Folders is coming to the Chrome Web Store first, and versions for Firefox and Microsoft Edge are planned. They will be linked here once they are listed."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tidyleaf Folders for ChatGPT and Claude",
+    "description": "Folders, pins and fast search for your ChatGPT and Claude chats. Free. Tidyleaf Pro adds search inside messages and folder export.",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "url": "https://tidyleaf.github.io/chatgpt-claude-folders",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (yearly)",
+        "price": "24",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$24 billed yearly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "24",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "ANN"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (monthly)",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$3.99 billed monthly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          }
+        }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tidyleaf"
+    }
+  }
+]
+</script>

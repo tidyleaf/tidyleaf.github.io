@@ -105,3 +105,110 @@ The Chrome version is in review first, and Firefox and Edge versions are being p
 It has to read a conversation to save it, but it does that inside your browser and sends your chats nowhere. See the [privacy policy](chat-exporter/privacy).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by OpenAI, Anthropic or Google. ChatGPT, Claude and Gemini are trademarks of their respective owners, named only to describe the sites the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I export a Claude chat to PDF or Markdown?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Claude has no per-chat download. Its account export (Settings, Privacy, Export data) emails you every conversation as JSON. For one chat as a file, use an exporter extension: open the chat on claude.ai, click Export and choose Markdown or PDF. For PDF, Tidyleaf opens a print view where you pick \"Save as PDF\"."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I export Gemini chats to Notion or Obsidian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, one chat at a time. Free Markdown export already imports into either app. Tidyleaf Pro adds an Obsidian format with YAML properties and a Notion-ready format. Bulk export is not available for Gemini."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a bulk ChatGPT export extension?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ChatGPT's own data export gives you every chat, but as one JSON file. Tidyleaf Pro exports every ChatGPT or Claude chat as its own Markdown file in a single zip."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work in Firefox or Edge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Chrome version is in review first, and Firefox and Edge versions are being prepared. Check tidyleaf.github.io for where it is available."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the extension see my conversations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It has to read a conversation to save it, but it does that inside your browser and sends your chats nowhere. See the privacy policy."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tidyleaf AI Chat Exporter",
+    "description": "Export ChatGPT, Claude and Gemini chats to Markdown, PDF, text or JSON. Free. Tidyleaf Pro adds bulk export for Obsidian and Notion.",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "url": "https://tidyleaf.github.io/ai-chat-exporter",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (yearly)",
+        "price": "24",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$24 billed yearly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "24",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "ANN"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (monthly)",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$3.99 billed monthly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          }
+        }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tidyleaf"
+    }
+  }
+]
+</script>

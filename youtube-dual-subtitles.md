@@ -100,3 +100,110 @@ Most often because YouTube changed how its player loads captions, and the extens
 Yes. That is the case this extension was built for; see the step-by-step [guide to Chinese and English subtitles on YouTube](guides/youtube-dual-subtitles-chinese-english). For Netflix, see [Tidyleaf Dual Subtitles for Netflix](netflix-dual-subtitles).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by YouTube or Google. "YouTube" is a trademark of Google LLC, used only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is there a free YouTube dual subtitles extension?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Tidyleaf Dual Subtitles shows two lines, in every language listed above, with pinyin or zhuyin, free with no time limit. Language Reactor and Immersive Translate also have free tiers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a YouTube dual subtitles extension for Firefox or Edge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ours is built for both and not yet listed in those stores; Chrome comes first. Edge installs Chrome Web Store extensions, so once the Chrome listing is live it works in Edge too."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get dual subtitles on the YouTube app on my phone or iPhone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not with an extension: the YouTube apps on iOS and Android do not run browser extensions. On a phone, YouTube's own auto-translate gives you one translated line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is my YouTube dual subtitles extension not working?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most often because YouTube changed how its player loads captions, and the extension now gets an empty caption file. See what changed and what to use now."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I watch YouTube with Chinese and English subtitles together?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. That is the case this extension was built for; see the step-by-step guide to Chinese and English subtitles on YouTube. For Netflix, see Tidyleaf Dual Subtitles for Netflix."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tidyleaf Dual Subtitles for YouTube",
+    "description": "Two subtitle lines on YouTube: original plus translation. Traditional or Simplified Chinese, pinyin and zhuyin. No account needed.",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "url": "https://tidyleaf.github.io/youtube-dual-subtitles",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (yearly)",
+        "price": "24",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$24 billed yearly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "24",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "ANN"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (monthly)",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$3.99 billed monthly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          }
+        }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tidyleaf"
+    }
+  }
+]
+</script>

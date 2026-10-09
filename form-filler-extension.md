@@ -98,3 +98,110 @@ The same extension is being prepared for Microsoft Edge Add-ons and Firefox Add-
 Other Tidyleaf extensions: [AI Chat Exporter](ai-chat-exporter) for saving ChatGPT, Claude and Gemini chats, and [Folders for ChatGPT and Claude](chatgpt-claude-folders).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with or endorsed by Google or any other form-filler product. Chrome is a trademark of Google LLC, named only to describe the browser the extension works in.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best free form filler for Chrome?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For standard address fields, Chrome's own autofill is free and already installed. If you want the whole page filled in one click, custom fields or per-site answers, use a form filler extension, and pick one that stores profiles on your device and does not cap daily fills. Tidyleaf Form Filler's free version has no daily limit, with 1 profile and 3 site rules."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a form filler extension with no daily limit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Some form fillers limit how many fills the free version allows per day. Tidyleaf Form Filler has no fill limit in either the free or the Pro version; Pro lifts the profile and site-rule limits instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a form filler extension fill Google Forms or job applications?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A profile-based filler fills fields it can match by label, so it handles the name, email, phone and address parts of most application forms, and Save this form remembers your answers for a site you return to. Questions unique to one form still need you, and you should always read the form before you submit it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I keep more than one profile, such as home and work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, with Tidyleaf Pro, which allows unlimited profiles. See how to autofill forms with multiple profiles for the general approach in any browser."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work in Edge or Firefox?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The same extension is being prepared for Microsoft Edge Add-ons and Firefox Add-ons as well as the Chrome Web Store. Until those listings are live, check tidyleaf.github.io for where it is available."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tidyleaf Form Filler",
+    "description": "Fill any web form in one click from profiles saved on your device. No daily limit, no account, nothing sent anywhere.",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "url": "https://tidyleaf.github.io/form-filler-extension",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (yearly)",
+        "price": "24",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$24 billed yearly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "24",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "ANN"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tidyleaf Pro (monthly)",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "Tidyleaf Pro subscription, US$3.99 billed monthly; one key unlocks Pro in every Tidyleaf extension",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3.99",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          }
+        }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tidyleaf"
+    }
+  }
+]
+</script>

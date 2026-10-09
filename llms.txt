@@ -1,0 +1,46 @@
+# Tidyleaf
+
+> Tidyleaf makes small, privacy-first Chrome extensions that do one job well: no account, no tracking, and no user data collected. Each extension has a free tier and an optional Tidyleaf Pro upgrade. They run in desktop Chrome. All five are submitted to the Chrome Web Store and pending review, so none can be installed from the store yet; each landing page will link its listing once approved. Firefox and Edge versions are planned.
+
+Tidyleaf Pro is $24 a year or $3.99 a month, and one license key unlocks Pro in every Tidyleaf extension. The free features stay free.
+
+## Extensions
+
+- [Tidyleaf AI Chat Exporter](https://tidyleaf.github.io/ai-chat-exporter): Exports ChatGPT, Claude and Gemini conversations to Markdown, plain text, JSON or PDF, with an Export button on each site. Free: exports of the open conversation. Pro ($24 a year or $3.99 a month): bulk export of all chats as a zip of Markdown files (chatgpt.com and claude.ai), Obsidian export and Notion export.
+- [Tidyleaf Folders for ChatGPT and Claude](https://tidyleaf.github.io/chatgpt-claude-folders): Adds folders, pins and fast title search to the sidebar of ChatGPT and Claude; folders are stored in your browser only. Free: up to 5 folders, pins and title search. Pro ($24 a year or $3.99 a month): unlimited folders, search inside messages and folder export to a Markdown zip.
+- [Tidyleaf Form Filler](https://tidyleaf.github.io/form-filler-extension): Fills any web form in one click from profiles saved on your device, with no daily limit and no account; never fills passwords or card numbers. Free: 1 profile and 3 site rules. Pro ($24 a year or $3.99 a month): unlimited profiles and site rules, JSON backup and restore, CSV import and smart values.
+- [Tidyleaf Dual Subtitles for Netflix](https://tidyleaf.github.io/netflix-dual-subtitles): Shows two subtitle lines on netflix.com at once (the title's own subtitles, machine translation only when a language is missing), in 17 languages including Traditional and Simplified Chinese, with pinyin or zhuyin. Free: two lines, every language, pinyin and zhuyin, with no trial timer. Needs your own Netflix subscription. Pro ($24 a year or $3.99 a month): SRT download, click-to-save words and a saved-words page with CSV export for Anki.
+- [Tidyleaf Dual Subtitles for YouTube](https://tidyleaf.github.io/youtube-dual-subtitles): Shows the video's captions plus a translation on two lines, in 17 languages including Traditional and Simplified Chinese, with pinyin or zhuyin. Free: dual subtitles on videos and Shorts, every language, pinyin and zhuyin, no time limit. Pro ($24 a year or $3.99 a month): SRT download, click-to-save words and a saved-words page with CSV export for Anki.
+
+## Guides
+
+- [All guides](https://tidyleaf.github.io/guides/): Index of every guide.
+- [How to export a ChatGPT conversation to Markdown (or PDF, text, JSON)](https://tidyleaf.github.io/guides/export-chatgpt-conversation-markdown)
+- [How to save a ChatGPT conversation as a PDF](https://tidyleaf.github.io/guides/save-chatgpt-conversation-pdf)
+- [How to export a Claude conversation to Markdown, PDF or Obsidian](https://tidyleaf.github.io/guides/export-claude-conversation)
+- [How to export a Gemini chat (Docs, PDF, Markdown, Takeout)](https://tidyleaf.github.io/guides/export-gemini-conversation)
+- [How to organize ChatGPT chats into folders (2026)](https://tidyleaf.github.io/guides/organize-chatgpt-chats-folders)
+- [How to find old Claude conversations (search, Projects, export)](https://tidyleaf.github.io/guides/search-old-claude-chats)
+- [Autofill Web Forms With Multiple Profiles in Chrome](https://tidyleaf.github.io/guides/autofill-forms-multiple-profiles)
+- [How to show two subtitles on Netflix at the same time](https://tidyleaf.github.io/guides/netflix-two-subtitles-at-once)
+- [YouTube with Chinese and English subtitles at the same time](https://tidyleaf.github.io/guides/youtube-dual-subtitles-chinese-english)
+- [YouTube Japanese and English Subtitles at the Same Time](https://tidyleaf.github.io/guides/youtube-dual-subtitles-japanese-english)
+- [YouTube Dual Subtitles not working? What changed, and what to use now](https://tidyleaf.github.io/guides/youtube-dual-subtitles-not-working)
+- [How to check WordPress plugins and themes for PHP 8.4 compatibility](https://tidyleaf.github.io/guides/wordpress-php-8-4-compatibility-check)
+- [ChatGPT 對話匯出：存成 Markdown、PDF 的四種方法](https://tidyleaf.github.io/guides/chatgpt-export-conversation-zh-tw)
+- [ChatGPT 資料夾怎麼整理？專案、封存、搜尋一次說明](https://tidyleaf.github.io/guides/chatgpt-folders-zh-tw)
+- [Netflix 雙字幕怎麼開？中英雙語字幕設定（含注音、拼音）](https://tidyleaf.github.io/guides/netflix-dual-subtitles-zh-tw)
+- [YouTube 雙語字幕：同時顯示中文與英文字幕的方法](https://tidyleaf.github.io/guides/youtube-bilingual-subtitles-zh-tw)
+
+## Privacy policies
+
+- [AI Chat Exporter privacy policy](https://tidyleaf.github.io/chat-exporter/privacy): Collects no data; chats stay on your device. Only the Pro license key goes to Polar, to check it.
+- [Folders for ChatGPT and Claude privacy policy](https://tidyleaf.github.io/chat-folders/privacy)
+- [Form Filler privacy policy](https://tidyleaf.github.io/form-filler/privacy)
+- [Dual Subtitles for Netflix privacy policy](https://tidyleaf.github.io/netflix-subtitles/privacy)
+- [Dual Subtitles for YouTube privacy policy](https://tidyleaf.github.io/dual-subtitles/privacy)
+
+## Optional
+
+- [Tidyleaf home](https://tidyleaf.github.io/): All extensions and Tidyleaf Pro.
+- [Sitemap](https://tidyleaf.github.io/sitemap.xml)
