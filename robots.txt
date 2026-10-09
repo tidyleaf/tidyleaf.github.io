@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tidyleaf.github.io/sitemap.xml

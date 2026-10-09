@@ -1,0 +1,5 @@
+title: Tidyleaf
+description: Small, private browser extensions that do one job well.
+url: https://tidyleaf.github.io
+plugins:
+  - jekyll-sitemap
