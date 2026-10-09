@@ -99,3 +99,53 @@ The Gemini app has the same share options under a response, including Export to 
 Related: [save a ChatGPT conversation as a PDF](save-chatgpt-conversation-pdf), [export a ChatGPT conversation to Markdown](export-chatgpt-conversation-markdown), [export a Claude conversation](export-claude-conversation).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Google. Gemini is a trademark of Google LLC, named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I export a Gemini chat as a PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For one answer, export it to Docs and download the Doc as PDF. For the whole chat, scroll to the top and print the page to PDF, or use an exporter that builds a print view of just the conversation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I export my Gemini chat history?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Google Takeout: My Activity, then only Gemini Apps. You get every saved prompt and response in one HTML or JSON file. Chats made while Gemini Apps Activity was off are not included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export a Gemini chat to Google Docs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with Share & export, then Export to Docs under a response. It exports that response, not the whole back-and-forth, so a long chat takes several exports or a different method."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I move a Gemini chat to Claude, ChatGPT or another Google account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no transfer feature. Export the chat as Markdown or text, then paste it or attach the file in the new chat (or the new account) and ask it to continue from there."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export Gemini chats on my phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Gemini app has the same share options under a response, including Export to Docs and share links. Browser extensions do not run in the mobile app, and Takeout works from a phone browser."
+      }
+    }
+  ]
+}
+</script>

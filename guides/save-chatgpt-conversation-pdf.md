@@ -103,3 +103,53 @@ Yes. See [how to export a ChatGPT conversation to Markdown](export-chatgpt-conve
 Inside ChatGPT, yes, with folders. See [how to organize ChatGPT chats into folders](organize-chatgpt-chats-folders).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by OpenAI. ChatGPT is a trademark of OpenAI, named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I save a ChatGPT conversation as a PDF without an extension?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Print the chat page or its share link to PDF from your browser (Options 1 and 2). Switch to the light theme first, and use the console snippet above if code blocks are cut off."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is my ChatGPT PDF missing part of the code?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Code blocks on chatgpt.com scroll sideways, and a PDF cannot scroll, so the part past the edge is dropped. Make the code wrap before printing (the snippet in Option 1) or use an exporter whose print view wraps code."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I save a ChatGPT conversation as a PDF in Firefox?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The same way: Ctrl+P or Cmd+P, then set the destination to Save to PDF. Firefox has no \"Background graphics\" switch by that name; it is Print backgrounds under More settings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a way to export a ChatGPT chat as a file other than PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. See how to export a ChatGPT conversation to Markdown, which also covers text and JSON. For Claude, see how to export a Claude conversation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I keep my saved chats organized instead of exporting them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inside ChatGPT, yes, with folders. See how to organize ChatGPT chats into folders."
+      }
+    }
+  ]
+}
+</script>

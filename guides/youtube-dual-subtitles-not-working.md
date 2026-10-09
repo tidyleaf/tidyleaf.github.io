@@ -45,3 +45,37 @@ No. It uses a creator's own translation when there is one, then YouTube's built-
 No. Settings stay in your browser. Caption lines go to translate.googleapis.com only when YouTube has no translation into your language. See the [privacy policy](../dual-subtitles/privacy).
 
 *Not affiliated with or endorsed by YouTube, Google, or the developers of the other extensions named here. Product names are used only to describe them.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Tidyleaf Dual Subtitles the same extension with a new name?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is a separate extension by a different developer (us), written from scratch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need my own translation API key, like some alternatives?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It uses a creator's own translation when there is one, then YouTube's built-in translation, and only then a free public translation service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it collect my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Settings stay in your browser. Caption lines go to translate.googleapis.com only when YouTube has no translation into your language. See the privacy policy."
+      }
+    }
+  ]
+}
+</script>

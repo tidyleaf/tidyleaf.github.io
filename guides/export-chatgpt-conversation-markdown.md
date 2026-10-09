@@ -75,3 +75,45 @@ Yes, with the same extension. See [how to export a Claude conversation](export-c
 Yes. Choose PDF; a clean print view opens, and you pick "Save as PDF" in the print dialog.
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by OpenAI. ChatGPT is a trademark of OpenAI, named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is there an official way to export a single ChatGPT chat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not as a file. The official route is the full data export, which covers every chat at once. ChatGPT's share link makes a web page others can open, not a file you keep."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an exporter extension see my chats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It has to read the conversation to save it. Check where it sends it. Tidyleaf AI Chat Exporter writes the file on your computer and sends your conversation nowhere; its privacy policy lists the one request it makes to another site (the Pro key check)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export Claude and Gemini chats too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with the same extension. See how to export a Claude conversation. Gemini loads long chats in pieces, so scroll to the top before exporting to get everything. Bulk export is not available for Gemini."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I turn the export into a PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Choose PDF; a clean print view opens, and you pick \"Save as PDF\" in the print dialog."
+      }
+    }
+  ]
+}
+</script>

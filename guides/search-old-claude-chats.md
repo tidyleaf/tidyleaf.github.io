@@ -129,3 +129,53 @@ Claude Code is a separate tool and keeps its sessions on your own computer, not 
 - [How to organize ChatGPT chats into folders](organize-chatgpt-chats-folders)
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Anthropic. Claude is a trademark of Anthropic, named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you search Claude chats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The chat list has a search box that matches chat titles, on every plan. On paid plans you can also ask Claude to search the content of your past chats for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why can't Claude find my old chats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The usual reasons: you are on the free plan, where Claude cannot search past chats; \"Search and reference chats\" is turned off in Settings, Capabilities; you asked from outside a Project about a chat that lives inside one (or the other way round); or the chat was deleted. Claude's search can also simply miss, so try a more specific detail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Claude search all chats or only recent ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you ask it to, Claude searches your past conversations, not just recent ones, but within a scope: all chats outside Projects, or only the current Project's chats when you ask from inside a Project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where did my Claude chat history go?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the list looks empty or short, check that you are signed in to the same account (a work and a personal account have separate histories), check your Projects, and scroll the full chat list rather than the sidebar's Recents. A chat you deleted cannot be restored."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find old Claude Code conversations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claude Code is a separate tool and keeps its sessions on your own computer, not in the claude.ai chat list. In the terminal, claude --resume lists past sessions in the current project folder so you can pick one, and claude --continue reopens the most recent."
+      }
+    }
+  ]
+}
+</script>

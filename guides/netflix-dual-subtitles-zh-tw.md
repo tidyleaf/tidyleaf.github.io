@@ -117,3 +117,53 @@ Language Reactor（舊名 Language Learning with Netflix）是最多人知道的
 延伸閱讀：[YouTube 雙語字幕：同時顯示中文與英文字幕](youtube-bilingual-subtitles-zh-tw)、[YouTube 日文與英文雙字幕](youtube-dual-subtitles-japanese-english)（英文）、[How to show two subtitles on Netflix at the same time](netflix-two-subtitles-at-once)（英文）。
 
 *Tidyleaf 是獨立的瀏覽器擴充功能開發者，與 Netflix、Language Reactor 無任何關係，也未獲其背書或贊助。「Netflix」是 Netflix, Inc. 的商標，僅用於說明本擴充功能適用的網站。*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Netflix 不裝擴充功能可以開雙字幕嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不行。Netflix 在所有裝置上都只能一次顯示一種字幕語言，兩行字幕需要電腦瀏覽器加擴充功能。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Netflix 雙字幕手機、平板、iPad 可以用嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不行。手機和平板上的 Netflix App 不能裝擴充功能。要用電腦的 Chrome 或 Edge 開 netflix.com。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Netflix 雙字幕電視可以用嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "電視 App 不行。可行的做法是用筆電播放並開擴充功能，再用 HDMI 線或投影接到電視。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mac 可以開 Netflix 雙字幕嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以，在 Mac 上用 Chrome 或 Edge 安裝擴充功能即可。Safari 需要專為 Safari 做的擴充功能，選擇很少。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "為什麼第二行字幕沒出現？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "通常是影片沒有那種語言的字幕、而擴充功能不會翻譯，或是 Netflix 更新了播放器、擴充功能還沒跟上。先換一部影片試試，再檢查擴充功能有沒有更新。"
+      }
+    }
+  ]
+}
+</script>

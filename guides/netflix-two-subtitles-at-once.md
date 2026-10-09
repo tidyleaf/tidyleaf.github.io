@@ -106,3 +106,53 @@ Usually the title has no subtitles in that language and the extension does not t
 More: the same two-line setup on YouTube with [Tidyleaf Dual Subtitles for YouTube](../youtube-dual-subtitles).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Netflix or Language Reactor. "Netflix" is a trademark of Netflix, Inc., named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you have two subtitles on Netflix without an extension?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Netflix shows one subtitle language at a time on every device. Two lines need a browser extension on a computer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Netflix dual subtitles work on iPad, Android or the TV app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, because the Netflix apps do not run extensions. Use netflix.com in a desktop browser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a dual subtitles option for Netflix in Safari?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only through an extension built for Safari, and few exist. Chrome or Edge on the same Mac has many more choices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Language Reactor free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The core features, including two subtitle lines from Netflix's own subtitles, are free. Speech recognition for dubbed audio, saving words across all features and Anki export are in its paid Pro tier; check its site for the current list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my second subtitle line not show up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually the title has no subtitles in that language and the extension does not translate, or Netflix changed its player and the extension needs an update. Try another title, then check for an update."
+      }
+    }
+  ]
+}
+</script>

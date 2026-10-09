@@ -96,3 +96,53 @@ Usually because the "English" track you saw is YouTube's auto-translate, not a c
 Netflix also shows one track at a time, and the same kind of extension fixes it. See [how to show two subtitles on Netflix at the same time](netflix-two-subtitles-at-once). For Chinese and English on YouTube, see [YouTube with Chinese and English subtitles at the same time](youtube-dual-subtitles-chinese-english).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by YouTube, Google, Language Reactor or CaptionPop. "YouTube" is a trademark of Google LLC, used only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can YouTube show two subtitles at once without an extension?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The player shows one track. Auto-translate replaces the original line rather than adding a second one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free extension for Japanese and English subtitles on YouTube?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Language Reactor has a free tier, and Tidyleaf Dual Subtitles shows both lines free with no time limit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get furigana on YouTube Japanese subtitles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not from YouTube itself. Some learner extensions add readings above kanji; Tidyleaf Dual Subtitles does not."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the English line a machine translation when the video has English subtitles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually because the \"English\" track you saw is YouTube's auto-translate, not a creator's track. A human English track appears in the CC list as plain \"English\". Ours uses a human track first when there is one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do the same on Netflix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Netflix also shows one track at a time, and the same kind of extension fixes it. See how to show two subtitles on Netflix at the same time. For Chinese and English on YouTube, see YouTube with Chinese and English subtitles at the same time."
+      }
+    }
+  ]
+}
+</script>

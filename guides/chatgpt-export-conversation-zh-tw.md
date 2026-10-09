@@ -99,3 +99,53 @@ ChatGPT 沒有「下載這段對話」的按鈕。想把對話紀錄匯出成檔
 - [Export a ChatGPT conversation to Markdown](export-chatgpt-conversation-markdown)（英文版）
 
 *Tidyleaf 是獨立的瀏覽器擴充功能開發者，與 OpenAI 無任何關係，也未獲其背書或贊助。「ChatGPT」是 OpenAI 的商標，僅用於說明本擴充功能適用的網站。*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ChatGPT 有官方的單一對話匯出功能嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "沒有單一對話的檔案下載。官方做法是「匯出資料」，一次匯出全部對話。「分享」連結產生的是別人可以打開的網頁，不是你可以保存的檔案。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ChatGPT 對話紀錄可以匯出成 PDF 嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。不裝東西的話，用瀏覽器列印「另存為 PDF」，但版面可能不整齊。用 Tidyleaf AI Chat Exporter 選 PDF，會先打開乾淨的列印頁面，再在列印視窗選「另存為 PDF」。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "匯出用的擴充功能會看到我的對話嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "要存檔就一定要讀取對話，重點是它把對話送去哪裡。Tidyleaf AI Chat Exporter 在你的電腦上產生檔案，不會把對話送到任何地方；它只會連到 chatgpt.com、claude.ai、gemini.google.com 和檢查 Pro 金鑰用的 Polar。詳見隱私權政策（英文）。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以一次匯出所有 ChatGPT 對話嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。內建「匯出資料」會給你全部對話，但都在同一個 JSON 檔裡。想要每段對話各自一個 Markdown 檔，可以用 Tidyleaf Pro 的批次匯出，帳號對話多時需要幾分鐘，下載完成前請保持分頁開著。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "手機上可以匯出嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "擴充功能只能在電腦版瀏覽器使用。手機上最簡單的是用回覆的複製按鈕；要完整備份，手機 App 和網頁版的設定裡都有「匯出資料」，匯出的是整個帳號的對話，包含在手機上聊的。"
+      }
+    }
+  ]
+}
+</script>

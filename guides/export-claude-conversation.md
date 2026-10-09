@@ -63,3 +63,37 @@ In the Obsidian export, the model goes into the properties when the site reports
 Same extension, same formats. See [how to export a ChatGPT conversation to Markdown](export-chatgpt-conversation-markdown).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Anthropic. Claude is a trademark of Anthropic, named only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does it include artifacts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on Claude the export reads the conversation from the site's own conversation data, which carries the artifacts, so they come out with the chat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my exported file show which Claude model answered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the Obsidian export, the model goes into the properties when the site reports it. If the site does not say, the field is left out rather than guessed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about ChatGPT and Gemini?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Same extension, same formats. See how to export a ChatGPT conversation to Markdown."
+      }
+    }
+  ]
+}
+</script>

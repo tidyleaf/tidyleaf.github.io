@@ -107,3 +107,53 @@ ChatGPT 的搜尋（側邊欄的放大鏡，或 Windows 按 Ctrl+K、Mac 按 Cmd
 想把對話另外存一份在 ChatGPT 之外，請見 [ChatGPT 對話怎麼匯出](chatgpt-export-conversation-zh-tw)。英文版說明：[How to organize ChatGPT chats into folders](organize-chatgpt-chats-folders)。
 
 *Tidyleaf 是獨立的瀏覽器擴充功能開發者，與 OpenAI 或 Anthropic 沒有隸屬、背書或贊助關係。ChatGPT 和 Claude 是其各自擁有者的商標，在此僅用來說明擴充功能支援的網站。*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ChatGPT 可以建立資料夾嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "沒有資料夾這個功能。內建分組的方式是專案，可以當成第一層資料夾。想要一般的資料夾、子資料夾，或分很多組，就要用瀏覽器擴充功能。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ChatGPT 封存的對話在哪裡？怎麼解除封存？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在「設定」→「資料控管」→「已封存的聊天」。打開清單後，可以直接開啟對話，或選擇解除封存，讓它回到側邊欄。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ChatGPT 專案不見了怎麼辦？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "先確認登入的是同一個帳號（如果你有團隊或企業版工作區，也確認切換到的是同一個），再展開側邊欄的專案區塊看看。如果你之前看到的「資料夾」其實是擴充功能加的，它可能被停用、移除，或因 ChatGPT 改版而失效；也可能你換了瀏覽器或設定檔，因為很多擴充功能只把資料夾存在那一個瀏覽器裡。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "刪除 ChatGPT 專案會刪掉裡面的對話嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "會。刪除專案會一併刪除裡面的對話、檔案和指示。想保留的對話請先移回聊天紀錄。用我們的擴充功能時，刪除資料夾只會清空資料夾，對話仍留在 ChatGPT。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以在專案裡再分資料夾嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不行，專案沒有子資料夾。想再細分，可以用資料夾擴充功能另外替對話分組；擴充功能的資料夾是自己記的標籤，不會改動 ChatGPT 的專案結構。"
+      }
+    }
+  ]
+}
+</script>

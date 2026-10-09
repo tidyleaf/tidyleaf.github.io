@@ -124,3 +124,45 @@ For quick manual checks, a form filler with one saved profile per test user, so 
 - [Form filler Chrome extension with no daily limit](../form-filler-extension): free form filler options compared, and the privacy checks to run before installing one.
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Google. Chrome is a trademark of Google, named only to describe the browser the extension works in.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Chrome autofill have multiple profiles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not named ones. Chrome can save several addresses and lets you pick one from a drop-down on each form, and each Chrome profile has its own separate autofill data. For named profiles you switch between, use a form filler extension or a password manager."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose a different address in Chrome autofill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click into a name or address field. Chrome shows your saved addresses; pick the one you want. To add or edit entries, go to Settings, then Autofill and passwords, then Addresses and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I autofill custom fields that Chrome ignores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chrome only fills field types it knows. A form filler that lets you add custom fields matched by label, or that remembers what you typed on a specific site, covers the rest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best way to fill forms with test data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For quick manual checks, a form filler with one saved profile per test user, so values are the same every run. For repeated or automated tests, a script with the test users in code."
+      }
+    }
+  ]
+}
+</script>

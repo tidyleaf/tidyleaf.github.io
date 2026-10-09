@@ -88,3 +88,37 @@ It works in short batches, driven by the admin page while it is open and by WP-C
 No. It tells you where they are and how to fix them. Updating the plugin is usually the fix.
 
 *Not affiliated with WP Engine, WordPress.org or the PHPCompatibility project. Names are used only to describe the tools.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is WordPress itself compatible with PHP 8.4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recent WordPress releases run on PHP 8.4; we test the checker on WordPress 7.1 with PHP 8.4. The question is your plugins and themes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the scan slow down my site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It works in short batches, driven by the admin page while it is open and by WP-Cron when you leave it, so no single request runs long. WP-Cron runs alongside page loads, so on a busy shop start the scan at a quiet time, or use WP-CLI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it fix the problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It tells you where they are and how to fix them. Updating the plugin is usually the fix."
+      }
+    }
+  ]
+}
+</script>

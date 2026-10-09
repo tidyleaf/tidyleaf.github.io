@@ -106,3 +106,53 @@ ChatGPT has no date filter or sort option. The sidebar lists chats by most recen
 Related: [find an old Claude chat](search-old-claude-chats) and [Tidyleaf AI Chat Exporter](../ai-chat-exporter).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by OpenAI or Anthropic. ChatGPT and Claude are trademarks of their respective owners, named only to describe the sites the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you organize ChatGPT chats into folders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not with folders as such. Projects are the built-in way to group chats and can be used as top-level folders. For plain folders, subfolders or more than a handful of groups, use a browser extension."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my ChatGPT folders gone or not showing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT's own sidebar has Projects, not folders, so \"folders\" you saw came from an extension. If they disappeared, the extension may be turned off, removed, or broken by a ChatGPT redesign, or you may be in a different browser or profile, since many extensions keep folders in that one browser. Check the extension's page in your browser's extension settings first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I put ChatGPT chats into folders inside a project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Projects have no subfolders. A folders extension can hold chats from anywhere in your history, but it does not reach inside ChatGPT's project structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does deleting a ChatGPT project delete the chats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. OpenAI's help center says deleting a project permanently removes its chats and instructions, and the files stored only in that project. Move any chat you want to keep back to your history before deleting the project. With an extension like ours, deleting a folder only empties the folder; the chats stay in ChatGPT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I organize ChatGPT chats by date?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT has no date filter or sort option. The sidebar lists chats by most recent activity, so an old chat you reopen moves back to the top. To keep an old chat in reach, pin it or file it in a folder; to get finished ones out of the way, archive them. To keep a copy outside ChatGPT, see how to export a ChatGPT conversation to Markdown."
+      }
+    }
+  ]
+}
+</script>

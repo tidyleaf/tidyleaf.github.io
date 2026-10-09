@@ -60,3 +60,37 @@ YouTube 播放器一次只能顯示一條字幕。你可以選英文，也可以
 不會。設定只存在你的瀏覽器裡。只有在 YouTube 沒有你要的語言翻譯時，字幕文字才會送到公開的翻譯服務（translate.googleapis.com）翻譯。詳見[隱私權政策](../dual-subtitles/privacy)（英文）。
 
 *本擴充功能與 YouTube、Google 無任何關係，也未獲其背書。「YouTube」是 Google LLC 的商標，僅用於說明本擴充功能適用的網站。*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "要錢嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "兩行字幕、上面所有語言、注音和拼音都免費，沒有時間限制。Pro 才有 SRT 下載和生字收藏。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "沒有字幕的影片可以用嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不行，需要有字幕軌。不過 YouTube 自動產生的字幕也算，大多數有人說話的影片都有。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "會收集我的資料嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不會。設定只存在你的瀏覽器裡。只有在 YouTube 沒有你要的語言翻譯時，字幕文字才會送到公開的翻譯服務（translate.googleapis.com）翻譯。詳見隱私權政策（英文）。"
+      }
+    }
+  ]
+}
+</script>

@@ -62,3 +62,45 @@ No data is collected. Settings live in your browser. Only when YouTube has no tr
 See [YouTube Dual Subtitles not working? What changed and what to use](youtube-dual-subtitles-not-working).
 
 *Not affiliated with or endorsed by YouTube or Google. "YouTube" is a trademark of Google LLC, used only to describe the site the extension works on.*
+
+<!-- jsonld:auto -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Two-line subtitles, every language above and pinyin or zhuyin are free with no time limit. Pro adds SRT download and saved words."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work on videos without captions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It needs a caption track, but YouTube's auto-generated captions count, and most spoken videos have them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it send my viewing to anyone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No data is collected. Settings live in your browser. Only when YouTube has no translation into your language are the caption lines sent to a public translation endpoint (translate.googleapis.com) to be translated. See the privacy policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My old dual-subtitle extension stopped working. Why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "See YouTube Dual Subtitles not working? What changed and what to use."
+      }
+    }
+  ]
+}
+</script>
