@@ -10,7 +10,7 @@ This extension does not collect, store on our servers, sell or share any persona
 
 ## What stays on your device
 
-Your settings (the languages of the two subtitle lines, font size, position, whether to show the top line, pronunciation style, and the optional Pro license key) are saved with `chrome.storage.sync`. Chrome keeps them in your browser profile and syncs them across your own devices if you have Chrome sync turned on. We cannot see them.
+Your settings (the languages of the two subtitle lines, font size, position, whether to show the top line, pronunciation style, and the optional Pro license key) are saved in the browser's synced extension storage (`storage.sync`), in your browser profile, and your browser syncs them across your own devices if you have its sync turned on. We cannot see them.
 
 ## What the extension reads on netflix.com
 
@@ -33,8 +33,8 @@ Apart from Netflix, these two (translation fallback and license check) are the o
 
 ## Pro features
 
-Saved words (a Pro feature) are stored with `chrome.storage.local` on your device only: the word, its sentence, the other subtitle line shown with it, the title name, the Netflix title id and the time in the episode. They are not synced and not sent anywhere; you can delete them or export them as a CSV file yourself from the saved-words page. The SRT download is built on your device from subtitles already loaded in the page and saved by your browser.
+Saved words (a Pro feature) are stored in the browser's extension storage (`storage.local`) on your device only: the word, its sentence, the other subtitle line shown with it, the title name, the Netflix title id and the time in the episode. They are not synced and not sent anywhere; you can delete them or export them as a CSV file yourself from the saved-words page. The SRT download is built on your device from subtitles already loaded in the page and saved by your browser.
 
 ## Changes and contact
 
-Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the Chrome Web Store listing.
+Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the store listing.
