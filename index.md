@@ -1,6 +1,6 @@
 # Tidyleaf
 
-Small, private browser extensions that do one job well. Nothing you do is sent to us: each extension works on your device, and the only thing that ever leaves it is a Pro license key, sent to Polar to check it.
+Small, private browser extensions that do one job well. Nothing you do is sent to us: we run no server and collect no data. Each extension works on your device, and the few requests it does make, such as translating subtitles or checking a Pro key with Polar, are listed in its privacy policy.
 
 - **Tidyleaf AI Chat Exporter**: save ChatGPT, Claude and Gemini conversations as Markdown, PDF or text. [Privacy policy](chat-exporter/privacy)
 - **Tidyleaf Form Filler**: fill web forms from your saved profiles, with no daily limit. [Privacy policy](form-filler/privacy)
