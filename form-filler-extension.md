@@ -45,7 +45,7 @@ It never saves and never fills password fields, card numbers, card security code
 
 - Unlimited profiles and site rules.
 - JSON backup and restore of all profiles and rules, and CSV import to bring profiles over from another form filler (one row per profile with field names as columns, or rows of Profile, Field, Value).
-- Smart values: a date relative to today (`{{date:+7d}}`), a random pick from a list (`{{random:red|green|blue}}`) or a random number (`{{randint:1-100}}`). In the free version these are skipped, never typed literally.
+{% raw %}- Smart values: a date relative to today (`{{date:+7d}}`), a random pick from a list (`{{random:red|green|blue}}`) or a random number (`{{randint:1-100}}`). In the free version these are skipped, never typed literally.{% endraw %}
 
 [Get Tidyleaf Pro](https://buy.polar.sh/polar_cl_pRlV10W256IBneP7Bu1WVfpK5ArTh7jMw2a863HOnbf), then paste the license key in the extension's Options.
 

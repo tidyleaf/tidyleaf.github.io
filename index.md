@@ -22,7 +22,7 @@ Practical answers to the problems these extensions solve, with the options that 
 - [How to export a ChatGPT conversation to Markdown](guides/export-chatgpt-conversation-markdown)
 - [How to save a ChatGPT conversation as a PDF](guides/save-chatgpt-conversation-pdf)
 - [How to organize ChatGPT chats into folders](guides/organize-chatgpt-chats-folders)
-- [How to show two subtitles on Netflix at the same time](guides/netflix-two-subtitles-at-once)
+- [Netflix dual subtitles: two languages at once, with pinyin and zhuyin](netflix-dual-subtitles)
 - [Watch YouTube with Chinese and English subtitles at the same time](guides/youtube-dual-subtitles-chinese-english)
 
 [All guides](guides/)

@@ -76,6 +76,15 @@ One Pro key unlocks Pro in every Tidyleaf extension, including [Dual Subtitles f
 - **The second language must exist somewhere.** If a title has no subtitles in that language, the extension can only machine-translate, which is weaker on slang, names and jokes.
 - **Netflix changes its player.** Extensions read data the player loads, so a Netflix update can break them for a while until the maker fixes it.
 - **Computer only.** For the couch, play on a laptop and connect it to the TV.
+- **One dual-subtitle extension at a time.** Two running together draw over each other, so turn the others off.
+
+## Learning a language with two subtitle lines
+
+- **Put the language you are learning on top** and your own language underneath, so your eye lands on the target language first. Once you can follow most of an episode, hide the line you know and bring it back only when you are lost.
+- **Prefer human subtitles for the language you study.** Machine translation is fine for meaning but teaches odd phrasing, so pick titles whose original language is the one you are learning.
+- **Save words with their sentence.** A word list with context is far easier to review than bare words, especially in Anki.
+- **Choose Traditional or Simplified to match what you study.** Taiwan and Hong Kong titles usually carry Traditional subtitles, many mainland titles Simplified. Zhuyin is what Taiwan's schools teach; pinyin is the standard elsewhere.
+- **Pinyin and zhuyin are generated, not taken from the audio.** Characters with more than one reading, such as 行 or 了, can occasionally get the wrong one, so treat the annotation as a guide rather than a transcript.
 
 ## FAQ
 
@@ -94,7 +103,10 @@ Not from Netflix itself. Tidyleaf Dual Subtitles for Netflix prints pinyin or zh
 **Is there a free Netflix dual subtitles extension?**
 Yes, several, including ours: two lines, pinyin and zhuyin are free with no time limit. Pro adds SRT download and saved words.
 
-More: [how to watch Netflix with two subtitles at once](guides/netflix-two-subtitles-at-once), and the same two-line setup for YouTube in [Tidyleaf Dual Subtitles for YouTube](youtube-dual-subtitles).
+**Why does my second subtitle line not show up?**
+Usually the title has no subtitles in that language and the extension does not translate, or Netflix changed its player and the extension needs an update. Try another title, then check the extension's store page for an update.
+
+More: the same two-line setup for YouTube in [Tidyleaf Dual Subtitles for YouTube](youtube-dual-subtitles).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by Netflix. "Netflix" is a trademark of Netflix, Inc., named only to describe the site the extension works on.*
 
@@ -143,6 +155,14 @@ More: [how to watch Netflix with two subtitles at once](guides/netflix-two-subti
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, several, including ours: two lines, pinyin and zhuyin are free with no time limit. Pro adds SRT download and saved words."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does my second subtitle line not show up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Usually the title has no subtitles in that language and the extension does not translate, or Netflix changed its player and the extension needs an update. Try another title, then check the extension's store page for an update."
         }
       }
     ]
