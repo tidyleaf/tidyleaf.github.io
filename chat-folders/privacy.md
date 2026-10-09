@@ -43,4 +43,4 @@ Tidyleaf Folders for ChatGPT and Claude is made by Tidyleaf and is not affiliate
 
 ## Changes and contact
 
-If this policy changes, the new version will be published at this address with a new date. Questions: use the support contact on the Chrome Web Store listing.
+If this policy changes, the new version will be published at this address with a new date. Questions: use the support contact on the store listing.
