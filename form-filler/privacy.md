@@ -10,7 +10,7 @@ This extension does not collect, sell or share personal data. We run no server a
 
 ## What stays on your device
 
-Your profiles (the names, addresses and other values you type into Options), your site rules (values read from forms when you press "Save this form"), the selected profile and your optional license key are saved with `chrome.storage.local`. Chrome keeps them in your browser profile on this device. They are not synced and we cannot see them. Removing the extension deletes them.
+Your profiles (the names, addresses and other values you type into Options), your site rules (values read from forms when you press "Save this form"), the selected profile and your optional license key are saved in the browser's extension storage (`storage.local`), in your browser profile on this device. They are not synced and we cannot see them. Removing the extension deletes them.
 
 ## What the extension reads
 
@@ -29,4 +29,4 @@ Filling and saving make no network request. The only request the extension ever 
 
 ## Changes and contact
 
-Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the Chrome Web Store listing.
+Changes will be posted at this address with a new date. Questions: contact the publisher through the support link on the store listing.
