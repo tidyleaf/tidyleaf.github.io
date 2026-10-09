@@ -9,3 +9,5 @@ Small, private browser extensions that do one job well. Nothing you do is sent t
 - **Tidyleaf Folders for ChatGPT and Claude**: sort your AI chats into folders and pin the ones you use. [Privacy policy](chat-folders/privacy)
 
 **Tidyleaf Pro** unlocks the Pro features in every Tidyleaf extension for $24 a year or $3.99 a month: [get Pro](https://buy.polar.sh/polar_cl_pRlV10W256IBneP7Bu1WVfpK5ArTh7jMw2a863HOnbf). Manage your subscription and license key in the [customer portal](https://polar.sh/data-gleaner/portal).
+
+**Guides:** practical answers to the problems these extensions solve, such as [exporting a ChatGPT conversation to Markdown](guides/export-chatgpt-conversation-markdown) and [watching YouTube with two subtitle lines](guides/youtube-dual-subtitles-chinese-english). [All guides](guides/)
