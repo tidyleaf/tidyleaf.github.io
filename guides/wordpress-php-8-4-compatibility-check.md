@@ -46,7 +46,7 @@ Use the development line (`dev-develop`): as of October 2026 the latest stable r
 
 ## Option 3: a checker plugin inside WordPress
 
-The best-known plugin for this, WP Engine's PHP Compatibility Checker (about 200,000 installs), now carries a "no longer maintained" notice on WordPress.org and is tested only up to WordPress 6.4. Its own reviews describe time-outs and checks that stop at PHP 8.0. Other scanners rely on `exec()` to run a command-line tool, which many managed and shared hosts disable.
+The best-known plugin for this, WP Engine's PHP Compatibility Checker (about 200,000 installs), now carries a "no longer maintained" notice on WordPress.org and is tested only up to WordPress 6.4. Its description says it checks up to PHP 8.0, and its reviews describe scans that time out or hang. Other scanners rely on `exec()` to run a command-line tool, which many managed and shared hosts disable.
 
 We built **Tidyleaf PHP Compatibility Checker** to fill that gap. Disclosure: Tidyleaf is us, and this is our plugin. It is free.
 

@@ -6,7 +6,7 @@ lang: zh-TW
 
 # Netflix 雙字幕怎麼開：同時顯示中文與英文字幕
 
-Netflix 沒有內建雙字幕。不論是電視、手機、平板 App 還是網頁版，一次都只能顯示一種字幕語言，選第二種就會把第一種換掉。想要上面英文（或影片原文）、下面中文兩行同時出現，唯一的做法是**在電腦上用 Chrome 或 Edge 開 netflix.com，再裝一個雙字幕擴充功能**。免費的選擇不少，下面依序說明步驟、各種擴充功能的差別、手機和電視的限制，以及學語言時怎麼用兩行字幕。
+Netflix 沒有內建雙字幕。不論是電視、手機、平板 App 還是網頁版，一次都只能顯示一種字幕語言，選第二種就會把第一種換掉。想要上面英文（或影片原文）、下面中文兩行同時出現，唯一的做法是**在電腦上用 Chrome 或 Edge 開 netflix.com，再裝一個雙字幕擴充功能**，免費的就有好幾個。
 
 ## Netflix 本身能做到什麼
 
@@ -34,7 +34,7 @@ Language Reactor（舊名 Language Learning with Netflix）是最多人知道的
 
 ### 只做雙字幕的小型擴充功能
 
-在 Chrome 線上應用程式商店搜尋「Netflix 雙語字幕」會找到好幾個。以前常被推薦的 NflxMultiSubs，有文章指出已經失效。安裝前先檢查這四點：
+在 Chrome 線上應用程式商店搜尋「Netflix 雙語字幕」會找到好幾個。很多中文教學推薦的 NflxMultiSubs 也是其中之一，但那些步驟多半寫於 2021 年，裝之前先看商店頁面最近的評論，確認現在還能用。安裝前也檢查這四點：
 
 1. **用的是 Netflix 自己的字幕，還是機器翻譯？** 人工字幕比機器翻譯好。比較好的做法是兩行都用 Netflix 的字幕，缺語言時才翻譯。
 2. **中文、日文、韓文是文字還是圖片？** Netflix 常把中日韓字幕以圖片形式送出。拿不到文字版的擴充功能，就沒辦法改字體、翻譯或加注音。
@@ -114,7 +114,7 @@ Language Reactor（舊名 Language Learning with Netflix）是最多人知道的
 **為什麼第二行字幕沒出現？**
 通常是影片沒有那種語言的字幕、而擴充功能不會翻譯，或是 Netflix 更新了播放器、擴充功能還沒跟上。先換一部影片試試，再檢查擴充功能有沒有更新。
 
-延伸閱讀：[YouTube 雙語字幕：同時顯示中文與英文字幕](youtube-bilingual-subtitles-zh-tw)、[YouTube 日文與英文雙字幕](youtube-dual-subtitles-japanese-english)（英文）、[How to show two subtitles on Netflix at the same time](netflix-two-subtitles-at-once)（英文）。
+延伸閱讀：[YouTube 雙語字幕：同時顯示中文與英文字幕](youtube-bilingual-subtitles-zh-tw)、[YouTube 日文與英文雙字幕](youtube-dual-subtitles-japanese-english)（英文）、[Netflix dual subtitles, with pinyin and zhuyin](../netflix-dual-subtitles)（英文）。
 
 *Tidyleaf 是獨立的瀏覽器擴充功能開發者，與 Netflix、Language Reactor 無任何關係，也未獲其背書或贊助。「Netflix」是 Netflix, Inc. 的商標，僅用於說明本擴充功能適用的網站。*
 

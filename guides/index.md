@@ -17,6 +17,11 @@ Practical answers to problems our extensions and plugin solve. Each guide covers
 - [How to find old Claude conversations](search-old-claude-chats)
 - [ChatGPT 對話匯出：存成 Markdown、PDF 的方法](chatgpt-export-conversation-zh-tw)
 - [ChatGPT 資料夾怎麼整理？專案、封存、搜尋一次說明](chatgpt-folders-zh-tw)
+- [ChatGPT sidebar too long? How to clean up hundreds of chats](chatgpt-sidebar-too-many-chats)
+- [How to export a ChatGPT conversation to Obsidian (one chat or all)](export-chatgpt-to-obsidian)
+- [Export ChatGPT, Claude or Gemini to Word or Google Docs without losing formatting](export-chatgpt-to-word-google-docs)
+- [How to export all chats in a Claude project (2026)](export-claude-project-chats)
+- [How to organize Claude.ai chats into folders (2026)](organize-claude-chats-folders)
 
 ## Subtitles
 
@@ -24,12 +29,14 @@ Practical answers to problems our extensions and plugin solve. Each guide covers
 - [YouTube with Japanese and English subtitles at the same time](youtube-dual-subtitles-japanese-english)
 - [YouTube Dual Subtitles not working? What changed, and what to use now](youtube-dual-subtitles-not-working)
 - [YouTube 雙語字幕：同時顯示中文與英文字幕](youtube-bilingual-subtitles-zh-tw)
-- [How to show two subtitles on Netflix at the same time](netflix-two-subtitles-at-once)
 - [Netflix 雙字幕怎麼開？中英雙語字幕設定](netflix-dual-subtitles-zh-tw)
+- [How to learn Japanese with Netflix subtitles (a study routine)](learn-japanese-netflix-dual-subtitles)
+- [YouTubeで2言語字幕を同時表示する方法](youtube-dual-subtitles-ja)
 
 ## Forms
 
 - [Autofill web forms with multiple profiles in Chrome](autofill-forms-multiple-profiles)
+- [Chrome Autofill Not Working on Some Forms? How to Fix It](chrome-autofill-not-working-some-forms)
 
 ## WordPress
 

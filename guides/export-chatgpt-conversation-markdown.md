@@ -5,14 +5,14 @@ description: Three ways to save a ChatGPT chat as a Markdown file with code bloc
 
 # How to export a ChatGPT conversation to Markdown
 
-You want one ChatGPT conversation as a clean `.md` file: headings as headings, code blocks with their language tag, tables as tables, and the math still readable. ChatGPT has no "Download this chat" button, so here are the three ways that work, from no install at all to one click.
+ChatGPT has no button to download one conversation as a file. To get a single chat as a clean `.md` file, with headings, code blocks, tables and math intact, use an exporter extension. With nothing installed, you can request ChatGPT's full data export (JSON and HTML, not Markdown) or copy messages by hand. Each option is below, with what it is good and bad for.
 
 ## Option 1: ChatGPT's own data export (everything, but not Markdown)
 
-ChatGPT's settings have a data export (Settings, then Data controls, then Export data). OpenAI emails you a download link, and the zip holds every conversation you have ever had as `conversations.json` plus a `chat.html` page.
+In ChatGPT, open Settings, then Data controls, and under Export data choose Export, then confirm. Per OpenAI's help center, ChatGPT emails or texts you when the file is ready, which can take up to 7 days, and the download link expires 24 hours after it arrives. The zip holds every conversation you have ever had as `conversations.json` plus a `chat.html` page. Business and Enterprise workspaces have no self-service export; ask your workspace owner.
 
 - **Good for:** a full backup of your account.
-- **Not good for:** one chat as Markdown. You get every chat at once, it can take a while to arrive by email, and the JSON is a tree of message nodes that needs a script to turn into readable text. The HTML file is one long page with no Markdown.
+- **Not good for:** one chat as Markdown. You get every chat at once, and the JSON is a tree of message nodes that needs a script to turn into readable text. The HTML file is one long page with no Markdown.
 
 ## Option 2: copy and paste (one chat, by hand)
 
@@ -24,6 +24,12 @@ Select the conversation and paste it into your editor. Each answer also has its 
 ## Option 3: an exporter extension (one click, the whole chat)
 
 A browser extension can add an Export button to the chat page and write the whole conversation to a file. This is what we built **Tidyleaf AI Chat Exporter** for. Disclosure: Tidyleaf is us, and this is our product.
+
+1. Open the conversation on chatgpt.com.
+2. Click the Export button on the page, or the Tidyleaf icon in the browser toolbar.
+3. Choose **Markdown** (or plain text, JSON or PDF). The file is saved to your downloads folder.
+
+If the popup says it found no chat, reload the ChatGPT tab once and try again.
 
 What it does, free:
 

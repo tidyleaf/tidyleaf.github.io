@@ -5,7 +5,7 @@ description: "How to organize ChatGPT chats into folders: what Projects can and 
 
 # How to organize ChatGPT chats into folders
 
-ChatGPT has no plain folders for chats. The closest built-in feature is **Projects**: you create a project in the sidebar and drag chats into it, or pick "Move to project" from a chat's menu. Projects work as folders for a few big topics, but they are flat, they change how the chats inside them behave, and deleting a project deletes its chats. For anything finer, combine Projects with **archive** and **search**, or add a folders extension to the sidebar. Here is what each one does, and what it does not.
+ChatGPT has no plain folders for chats. The closest built-in feature is **Projects**: you create a project in the sidebar and drag chats into it, or pick "Move to project" from a chat's menu. Projects work as folders for a few big topics, but they are flat, they change how the chats inside them behave, and deleting a project deletes its chats. For anything finer, combine Projects with **archive** and **search**, or add a folders extension to the sidebar.
 
 ## Option 1: ChatGPT Projects (built in)
 
@@ -46,11 +46,12 @@ Search answers "where is that chat?", not "show me everything about X", so it co
 
 ## Option 4: A folders extension
 
-Several browser extensions add real folders to the ChatGPT sidebar. Most of them work as labels kept by the extension: the chat stays where it is in ChatGPT and nothing about its context changes. Check that deleting a folder in the one you pick does not delete the chats in it. Before you install any of them, check three things:
+Several browser extensions add real folders to the ChatGPT sidebar. Most of them work as labels kept by the extension: the chat stays where it is in ChatGPT and nothing about its context changes. Before you install one, check four things:
 
 1. **Where your folders are stored.** On your device only, or on the extension maker's server?
 2. **What it sends and to whom.** An extension that organizes chats can read your chat list; the privacy policy should say exactly what leaves your browser.
-3. **What the free plan allows.** Most cap the number of folders and charge for more.
+3. **What the free plan allows.** Free plans usually cap the number of folders and charge for more.
+4. **What deleting a folder does.** It should only empty the folder, never delete the chats in it.
 
 We built one of these: **Tidyleaf Folders for ChatGPT and Claude**. Disclosure: Tidyleaf is us, and this is our product.
 
@@ -84,7 +85,7 @@ More detail is on the [Tidyleaf Folders page](../chatgpt-claude-folders).
 | Folders that cover both ChatGPT and Claude | A folders extension that supports both, such as Tidyleaf Folders |
 | Folders on your phone too | Projects (folders extensions run in a desktop browser and do not reach the ChatGPT app) |
 
-Most people end up with a mix: Projects for two or three heavy topics, a folders extension or archive for the long tail.
+A workable mix: Projects for the two or three topics that need shared files or instructions, and a folders extension or archive for everything else.
 
 ## FAQ
 

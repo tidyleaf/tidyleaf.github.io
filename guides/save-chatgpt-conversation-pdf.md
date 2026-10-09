@@ -49,6 +49,8 @@ Under Settings, then Data controls, then **Export data**, OpenAI emails you a zi
 - **Good for:** a full archive, or when you need a PDF of many chats.
 - **Not good for:** one chat. The email can take a while to arrive, every conversation is on one long page, and you have to find yours and print only those pages.
 
+**What about asking ChatGPT to make the PDF?** ChatGPT can often create a downloadable PDF when you ask for one in the chat. It writes that file itself, though, so you get its rewrite of the conversation, not a faithful copy, and you need to check it against the chat. It suits a summary, not a record.
+
 ## Option 4: an exporter extension (one click, built for paper)
 
 A browser extension can read the conversation and lay it out as a print page made for PDF, rather than printing the chat app. This is one of the things we built **Tidyleaf AI Chat Exporter** for. Disclosure: Tidyleaf is us, and this is our product.

@@ -14,6 +14,8 @@ Claude's sidebar has a link to all your chats, with a search box at the top. Typ
 - **Good for:** a chat whose topic you remember.
 - **Limits:** it works from titles. A chat titled "Python script help" will not come up when you search for the one function name it contained. If you rename important chats (hover a chat, open its menu, Rename), this search gets much more reliable.
 
+If you remember roughly when you had the chat, your browser history can also find it: open history (Ctrl+H, or Cmd+Y in Chrome on a Mac), search for `claude.ai/chat`, and the entries show each chat's title and the day you opened it.
+
 `Ctrl+F` (or `Cmd+F` on a Mac) only searches the chat that is open on screen, and only the part that has loaded, so it does not help you find a chat in your history.
 
 ## 2. Ask Claude to search your past chats
@@ -65,7 +67,7 @@ Run it as `python3 find_chat.py "lisbon"`. Then search for that title in Claude'
 
 ## What if the chat was deleted?
 
-Claude has no trash folder for chats. A deleted conversation does not come back from the chat list or from Claude's search. Your only copy is one you saved before: an earlier data export, a file you exported yourself, or text you pasted elsewhere. If a chat matters, save it somewhere you control.
+Claude has no trash folder for chats. A deleted conversation does not come back from the chat list or from Claude's search. Incognito chats are never saved to your history, so none of the methods above can find one. Your only copy is one you saved before: an earlier data export, a file you exported yourself, or text you pasted elsewhere. If a chat matters, save it somewhere you control.
 
 ## How to stop losing Claude chats
 

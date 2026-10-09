@@ -5,11 +5,15 @@ description: Save a Claude.ai chat as a Markdown file with its artifacts, code a
 
 # How to export a Claude conversation
 
-Claude.ai has no button that saves one conversation as a file. If you want a chat in your notes, your repo or an Obsidian vault, these are the options that work today.
+Claude.ai has no button that saves one conversation as a file. For a backup of every chat, use Claude's account export (Settings, Privacy, Export data). For one chat as a PDF, print the page from your browser. For one chat as clean Markdown with its artifacts, or all chats as Markdown files for an Obsidian vault, use an exporter extension. Each route is below.
 
 ## Option 1: Claude's account data export
 
-In Claude's settings, the Privacy section has an Export data option. Anthropic emails you a download link to a zip of your account data, with your conversations as JSON.
+1. On claude.ai or the Claude desktop app, click your initials in the lower-left corner and choose **Settings**. The iOS and Android apps cannot start an export.
+2. Open **Privacy** and click **Export data**.
+3. Anthropic emails a download link to your account address. According to [Anthropic's help page](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data), the link expires 24 hours after delivery and you must be signed in to download. The file holds your conversations as JSON.
+
+On Team and Enterprise plans, only the organization's Primary Owner can export data.
 
 - **Good for:** a full backup.
 - **Not good for:** reading or reusing one chat. It is every conversation at once, as raw JSON that needs a script before it is readable, and it arrives by email rather than straight away.
@@ -21,7 +25,14 @@ Each Claude reply has a copy button, and you can select text by hand.
 - **Good for:** one reply.
 - **Not good for:** a whole chat. You copy each turn yourself and lose who said what, and artifacts (the code or documents Claude writes in the side panel) have to be copied separately.
 
-## Option 3: an exporter extension
+## Option 3: print to PDF from the browser
+
+Open the conversation, press Ctrl+P (Cmd+P on a Mac), and choose **Save as PDF** as the destination.
+
+- **Good for:** a quick, readable copy of one chat with no install.
+- **Not good for:** reuse. The PDF can include buttons and other parts of the page, long code blocks can be cut at page breaks, and artifacts in the side panel may not print with the chat, so check the result.
+
+## Option 4: an exporter extension
 
 **Tidyleaf AI Chat Exporter** adds an Export button to claude.ai (and to ChatGPT and Gemini). Disclosure: Tidyleaf is us, and this is our product.
 

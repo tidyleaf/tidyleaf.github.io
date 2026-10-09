@@ -49,7 +49,7 @@ Japanese is supported both as the video's language and as a translation target, 
 
 Two settings to change for Japanese:
 
-1. **Set the target language to English.** By default every non-Chinese video is translated into Traditional Chinese, so on a Japanese video you need to pick English once in the popup.
+1. **Check the target language.** Until you pick one, it translates into your Chrome display language, so with Chrome in English a Japanese video gets English underneath. If Chrome is set to Japanese or a language the extension does not offer, a Japanese video is translated into Traditional Chinese instead; pick English once in the popup.
 2. **Leave Pronunciation off.** The pinyin and zhuyin option is for Chinese. A Japanese line that is mostly kanji can be annotated with Chinese readings, which are wrong for Japanese.
 
 What it does not do for Japanese, so you can judge it fairly: there is **no furigana and no romaji**, and no dictionary pop-up. If you need readings above kanji, ours is not the right tool for that.
@@ -93,7 +93,7 @@ Not from YouTube itself. Some learner extensions add readings above kanji; Tidyl
 Usually because the "English" track you saw is YouTube's auto-translate, not a creator's track. A human English track appears in the CC list as plain "English". Ours uses a human track first when there is one.
 
 **Can I do the same on Netflix?**
-Netflix also shows one track at a time, and the same kind of extension fixes it. See [how to show two subtitles on Netflix at the same time](netflix-two-subtitles-at-once). For Chinese and English on YouTube, see [YouTube with Chinese and English subtitles at the same time](youtube-dual-subtitles-chinese-english).
+Netflix also shows one track at a time, and the same kind of extension fixes it. See [Netflix dual subtitles](../netflix-dual-subtitles). For Chinese and English on YouTube, see [YouTube with Chinese and English subtitles at the same time](youtube-dual-subtitles-chinese-english).
 
 *Tidyleaf is an independent maker of browser extensions. Not affiliated with, endorsed by or sponsored by YouTube, Google, Language Reactor or CaptionPop. "YouTube" is a trademark of Google LLC, used only to describe the site the extension works on.*
 
@@ -140,7 +140,7 @@ Netflix also shows one track at a time, and the same kind of extension fixes it.
       "name": "Can I do the same on Netflix?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Netflix also shows one track at a time, and the same kind of extension fixes it. See how to show two subtitles on Netflix at the same time. For Chinese and English on YouTube, see YouTube with Chinese and English subtitles at the same time."
+        "text": "Netflix also shows one track at a time, and the same kind of extension fixes it. See Netflix dual subtitles. For Chinese and English on YouTube, see YouTube with Chinese and English subtitles at the same time."
       }
     }
   ]
