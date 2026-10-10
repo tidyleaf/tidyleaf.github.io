@@ -26,8 +26,7 @@ This is the most common reason dual-subtitle extensions went quiet, and it is no
 - **Language Reactor** and **Immersive Translate** also show two lines on YouTube and cover more sites, with paid plans.
 - **YouTube's built-in auto-translate** gives you one translated line (gear, Subtitles/CC, Auto-translate). Not two lines, but it works with nothing installed.
 
-**Tidyleaf Dual Subtitles for YouTube is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf Dual Subtitles for YouTube once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)** Tidyleaf Dual Subtitles for YouTube is on the Chrome Web Store.
 
 ## Will this break again?
 
