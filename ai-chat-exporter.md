@@ -7,6 +7,8 @@ description: Export ChatGPT, Claude and Gemini chats to Markdown, PDF, text or J
 
 To export a single ChatGPT, Claude or Gemini conversation as a file, you need either the site's own account data export (every chat at once, as raw JSON or HTML, sent by email) or a browser extension that adds an Export button to the chat page. This page covers both, so you can pick the one that fits, and then describes our own extension, **Tidyleaf AI Chat Exporter**. Disclosure: Tidyleaf is us, and this is our product.
 
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)**
+
 ## What each site offers without an extension
 
 None of the three sites has a "download this conversation" button. Each one does let you take your data out in some form:
@@ -71,8 +73,7 @@ Everything happens in your browser. The extension reads the conversation from th
 
 ### Install
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 It needs Chrome 114 or later.
 
@@ -99,7 +100,7 @@ Yes, one chat at a time. Free Markdown export already imports into either app. T
 ChatGPT's own data export gives you every chat, but as one JSON file. Tidyleaf Pro exports every ChatGPT or Claude chat as its own Markdown file in a single zip.
 
 **Does it work in Firefox or Edge?**
-The Chrome version is in review first, and Firefox and Edge versions are being prepared. Check [tidyleaf.github.io](https://tidyleaf.github.io) for where it is available.
+The [Chrome version is live](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip) and Edge can install it from the Chrome Web Store. A Firefox version is being prepared.
 
 **Does the extension see my conversations?**
 It has to read a conversation to save it, but it does that inside your browser and sends your chats nowhere. See the [privacy policy](chat-exporter/privacy).
@@ -142,7 +143,7 @@ It has to read a conversation to save it, but it does that inside your browser a
         "name": "Does it work in Firefox or Edge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Chrome version is in review first, and Firefox and Edge versions are being prepared. Check tidyleaf.github.io for where it is available."
+          "text": "The Chrome version is live and Edge can install it from the Chrome Web Store. A Firefox version is being prepared."
         }
       },
       {
@@ -163,6 +164,8 @@ It has to read a conversation to save it, but it does that inside your browser a
     "applicationCategory": "BrowserApplication",
     "operatingSystem": "Chrome",
     "url": "https://tidyleaf.github.io/ai-chat-exporter",
+    "downloadUrl": "https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip",
+    "installUrl": "https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip",
     "offers": [
       {
         "@type": "Offer",
