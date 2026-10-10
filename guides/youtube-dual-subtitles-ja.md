@@ -62,8 +62,7 @@ YouTubeの字幕メニューは、動画に付いている字幕トラックか�
 
 対応環境はPC版Chromeのwww.youtube.comです。YouTubeのスマホアプリはブラウザ拡張機能を実行できないため、使えません。
 
-**Tidyleaf Dual Subtitles for YouTubeはChromeウェブストアで審査中です。** 公開までの案内は[tidyleaf.github.io](https://tidyleaf.github.io)をご覧ください。機能と料金の詳細は[製品ページ](../youtube-dual-subtitles)(英語)にあります。
-<!-- TODO(store-link): replace the pending-review line above with the Chrome Web Store URL for Tidyleaf Dual Subtitles for YouTube once it is approved. -->
+**[Chromeに追加（無料）](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)** Tidyleaf Dual Subtitles for YouTubeはChromeウェブストアで公開中です。機能と料金の詳細は[製品ページ](../youtube-dual-subtitles)(英語)にあります。
 
 ## 以前入れた拡張機能で字幕が出ないとき
 
