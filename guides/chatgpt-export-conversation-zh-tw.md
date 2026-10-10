@@ -51,8 +51,7 @@ ChatGPT 沒有「下載這段對話」的按鈕。想把對話紀錄匯出成檔
 
 **Tidyleaf Pro**（每年 24 美元或每月 3.99 美元，[購買 Pro](https://buy.polar.sh/polar_cl_pRlV10W256IBneP7Bu1WVfpK5ArTh7jMw2a863HOnbf)）另外提供：一次把所有 ChatGPT 或 Claude 對話批次匯出成 zip（每段對話一個 Markdown 檔）、Obsidian 格式（開頭帶 YAML 屬性：標題、來源網站、網站有提供時的模型、建立日期、網址、標籤）和可直接匯入 Notion 的格式。上面列的免費功能一直免費。
 
-**Tidyleaf AI Chat Exporter 即將上架 Chrome 線上應用程式商店。** 上架前請先看 [tidyleaf.github.io](https://tidyleaf.github.io)。
-<!-- TODO(store-link): 審核通過後，把上一行換成 Tidyleaf AI Chat Exporter 的 Chrome Web Store 連結。 -->
+**[加到 Chrome（免費）](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter 已在 Chrome 線上應用程式商店上架。
 
 其他選擇：ChatGPT Exporter 等擴充功能，以及 Greasy Fork 上的使用者腳本（需要先裝 Tampermonkey 之類的腳本管理器），也能把 ChatGPT 對話匯出成 Markdown 或 PDF。不管用哪一個，都請先看它的隱私權政策，確認對話不會被上傳到開發者的伺服器。
 
