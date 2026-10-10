@@ -112,8 +112,7 @@ Tidyleaf AI Chat Exporter is one extension for chatgpt.com, claude.ai and gemini
 - **Obsidian export:** Markdown with YAML properties at the top (title, provider, model when the site reports it, created date, URL, exported date, and tags `ai-chat` plus the site name). It works for the open chat on all three sites and for the bulk zip.
 - **Bulk export:** every ChatGPT or Claude chat as its own Markdown file in a single zip, named like `2026-10-09 Title.md`, with characters such as `/ : # | [ ]` removed and duplicate names numbered. Large accounts take a few minutes because chats are fetched one at a time; keep the tab open until the zip downloads. Anything it could not fetch is listed in a text file in the zip. This replaces the script and the wait for the data-export email. It is a paid feature and does not work on Gemini.
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store.** The listing is pending review, so until it is approved see [tidyleaf.github.io](https://tidyleaf.github.io). It needs Chrome 114 or later.
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store. It needs Chrome 114 or later.
 
 More on the extension: [Tidyleaf AI Chat Exporter](../ai-chat-exporter).
 
