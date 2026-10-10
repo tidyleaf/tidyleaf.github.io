@@ -64,8 +64,7 @@ How it reads Gemini: from the page itself. Gemini loads long chats in pieces, so
 
 **Tidyleaf Pro** ($24 a year or $3.99 a month) adds Obsidian export (Markdown with YAML properties) and Notion-ready export for the open Gemini chat. Bulk export of all chats works on ChatGPT and Claude but **not on Gemini**, because Gemini offers no stable way to list your chats; for your whole Gemini history, use Takeout (Option 3). [Get Pro](https://buy.polar.sh/polar_cl_pRlV10W256IBneP7Bu1WVfpK5ArTh7jMw2a863HOnbf).
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 More on the extension: [Tidyleaf AI Chat Exporter](../ai-chat-exporter).
 
