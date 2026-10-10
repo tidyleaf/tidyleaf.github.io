@@ -33,8 +33,7 @@ Sensible defaults: Chinese-language videos are translated into English, and ever
 
 **Tidyleaf Pro** ($24 a year or $3.99 a month) adds SRT download of the subtitles (both lines, original only or translation only), click-a-word saving with the sentence and timestamp, and a saved-words page with CSV export for Anki. Everything in the free list stays free.
 
-**Tidyleaf Dual Subtitles for YouTube is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf Dual Subtitles for YouTube once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)** Tidyleaf Dual Subtitles for YouTube is on the Chrome Web Store.
 
 ## Other extensions that do this
 
