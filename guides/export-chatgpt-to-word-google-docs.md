@@ -76,8 +76,7 @@ Free, with no account:
 
 It does not write .docx or Google Docs files itself; take its Markdown through step 2 or Pandoc. **Tidyleaf Pro** ($24 a year or $3.99 a month) adds bulk export of all your ChatGPT or Claude chats as a zip of Markdown files, plus Obsidian and Notion formats; the free exports stay free. Exports run in your browser and your chats are not sent to Tidyleaf or anyone else; the only outside request is a Pro key check with our payment provider, Polar. See the [privacy policy](../chat-exporter/privacy).
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store; the listing is pending review.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 More on the extension: [Tidyleaf AI Chat Exporter](../ai-chat-exporter).
 
