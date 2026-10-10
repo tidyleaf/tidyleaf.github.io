@@ -51,8 +51,7 @@ Free:
 
 Your conversations never leave your computer: there is no server, no account and no analytics. The only request to another site is the Pro license key check with our payment provider, Polar. Details are in the [privacy policy](../chat-exporter/privacy).
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 ## Claude chats into Obsidian, step by step
 
