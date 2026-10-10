@@ -45,8 +45,7 @@ On ChatGPT the extension asks the site for the conversation the same way ChatGPT
 
 **Tidyleaf Pro** ($24 a year or $3.99 a month) adds a bulk export of all your ChatGPT or Claude chats as a zip of Markdown files, plus Obsidian export (Markdown with YAML properties: title, provider, model when the site reports it, created date, URL, tags) and Notion-ready export. The free exports above stay free.
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 ## Which option should you use?
 
