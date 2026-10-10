@@ -65,8 +65,7 @@ That is all Route 2 needs: open a project chat, click Export, choose Markdown, a
 
 The extension runs in your browser and writes files to your computer. There is no Tidyleaf server, account or analytics, and your chats are not uploaded. The only thing that leaves your browser is a Pro license key, if you enter one, which goes to our payment provider Polar to be checked. See the [privacy policy](../chat-exporter/privacy).
 
-**Tidyleaf AI Chat Exporter is coming to the Chrome Web Store; the listing is pending review.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf AI Chat Exporter once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/belnajbhkcmnjjmmaibpahakpgpcpkip)** Tidyleaf AI Chat Exporter is on the Chrome Web Store.
 
 More on the extension: [Tidyleaf AI Chat Exporter](../ai-chat-exporter).
 
