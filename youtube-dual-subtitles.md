@@ -7,6 +7,8 @@ description: "A free YouTube dual subtitles extension for Chrome: original capti
 
 YouTube shows one subtitle track at a time, so to see two languages at once you need a browser extension that draws a second line over the player. **Tidyleaf Dual Subtitles for YouTube** is ours and is free: it shows the video's own captions on top and a translation underneath, on regular videos and Shorts, with no account. Below is what YouTube can do on its own, what a dual subtitles extension adds, how the main options compare, and the limits to expect from any of them.
 
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)**
+
 ## What YouTube can do without an extension
 
 - **One caption track:** the gear icon, then Subtitles/CC, then pick a language.
@@ -59,8 +61,7 @@ We collect nothing and run no server. Your settings stay in your browser. The ex
 
 ### Install
 
-**Tidyleaf Dual Subtitles for YouTube is coming to the Chrome Web Store.** Until it is listed, see [tidyleaf.github.io](https://tidyleaf.github.io).
-<!-- TODO(store-link): replace the line above with the Chrome Web Store URL for Tidyleaf Dual Subtitles for YouTube once it is approved. -->
+**[Add to Chrome, free](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)** Tidyleaf Dual Subtitles for YouTube is on the Chrome Web Store.
 
 ## How the options compare
 
@@ -88,7 +89,7 @@ Pick a broader tool if you watch on many sites. Pick ours if you mainly watch Yo
 Yes. Tidyleaf Dual Subtitles shows two lines, in every language listed above, with pinyin or zhuyin, free with no time limit. Language Reactor and Immersive Translate also have free tiers.
 
 **Is there a YouTube dual subtitles extension for Firefox or Edge?**
-Ours is built for both and not yet listed in those stores; Chrome comes first. Edge installs Chrome Web Store extensions, so once the Chrome listing is live it works in Edge too.
+Ours is on the Chrome Web Store and not yet listed in the Firefox or Edge stores. Edge installs Chrome Web Store extensions, so it works in Edge too.
 
 **Can I get dual subtitles on the YouTube app on my phone or iPhone?**
 Not with an extension: the YouTube apps on iOS and Android do not run browser extensions. On a phone, YouTube's own auto-translate gives you one translated line.
@@ -121,7 +122,7 @@ Yes. That is the case this extension was built for; see the step-by-step [guide 
         "name": "Is there a YouTube dual subtitles extension for Firefox or Edge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ours is built for both and not yet listed in those stores; Chrome comes first. Edge installs Chrome Web Store extensions, so once the Chrome listing is live it works in Edge too."
+          "text": "Ours is on the Chrome Web Store and not yet listed in the Firefox or Edge stores. Edge installs Chrome Web Store extensions, so it works in Edge too."
         }
       },
       {
@@ -158,6 +159,8 @@ Yes. That is the case this extension was built for; see the step-by-step [guide 
     "applicationCategory": "BrowserApplication",
     "operatingSystem": "Chrome",
     "url": "https://tidyleaf.github.io/youtube-dual-subtitles",
+    "downloadUrl": "https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf",
+    "installUrl": "https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf",
     "offers": [
       {
         "@type": "Offer",
