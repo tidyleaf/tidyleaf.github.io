@@ -32,8 +32,7 @@ YouTube 播放器一次只能顯示一條字幕。你可以選英文，也可以
 
 **Tidyleaf Pro**（每年 24 美元或每月 3.99 美元）另外提供：下載 SRT 字幕檔（兩行、只有原文或只有翻譯）、點字幕裡的單字就能連同句子和時間點收藏、生字頁面可匯出 CSV 給 Anki 使用。上面列的免費功能永遠免費，沒有試用期限。
 
-**Tidyleaf Dual Subtitles for YouTube 即將上架 Chrome 線上應用程式商店。** 上架前請先看 [tidyleaf.github.io](https://tidyleaf.github.io)。
-<!-- TODO(store-link): 審核通過後，把上一行換成 Tidyleaf Dual Subtitles for YouTube 的 Chrome Web Store 連結。 -->
+**[加到 Chrome（免費）](https://chromewebstore.google.com/detail/jgjjfglbomhmpeniendnfknpjdpgfmgf)** Tidyleaf Dual Subtitles for YouTube 已在 Chrome 線上應用程式商店上架。
 
 ## 其他選擇
 
